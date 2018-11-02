@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <style>
+  @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Bitter:700|Roboto+Condensed:400,700");
+body {
+  color: #5c5c5c;
+  font-size: 14px;
+  background-color: #fcfcfc;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.3;
+  min-width: 320px;
+}
+  .container{
+    max-width: 920px;
+    min-width: 320px;
+    text-align: left;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .wrap{ width: 50%; }
+  	ul{list-style: none;margin: 0;padding: 0;width: 100%;}
+  	li{border: 1px solic #ccc;background: #eee;padding: 5px 10px;color: #000;
+      }
+  	li span{padding-left: 10px;cursor: default;}
+  	.checked{text-decoration: line-through;font-weight: bold;color: #c00;}
+  </style>
+</head>
+<body>
+  <div class="container">
+	<h6>Click 2 times to remove</h6>
+	<h6>Click 1 time to rename</h6>
+	<h1>To Do List</h1>
+	<p>
+  <div class="wrap"><input type="text" id="inItemText"></div></p>
+	<div class="wrap"><ul id="todoList"></ul>
+  </div><div class="wrap"></div>
+ 
+<script src="todo.js"></script>
+</body>
+</html>
